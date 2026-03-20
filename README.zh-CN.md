@@ -43,11 +43,18 @@ Opus 写码 → Codex 审计 → Opus 修复 → Codex 再次审计 → 推送
 
 ## 安装
 
-将技能复制到 Claude Code 技能目录：
+**通过 [skills.sh](https://skills.sh) 一键安装：**
+
+```bash
+npx skills add CharlexH/codex-code-review
+```
+
+**或手动安装：**
 
 ```bash
 mkdir -p ~/.claude/skills/codex-code-review
-cp SKILL.md ~/.claude/skills/codex-code-review/SKILL.md
+curl -fsSL https://raw.githubusercontent.com/CharlexH/codex-code-review/main/SKILL.md \
+  -o ~/.claude/skills/codex-code-review/SKILL.md
 ```
 
 ## 使用方法

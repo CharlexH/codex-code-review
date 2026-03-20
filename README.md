@@ -43,11 +43,18 @@ Opus writes → Codex audits → Opus fixes → Codex re-audits → Push
 
 ## Installation
 
-Copy the skill to your Claude Code skills directory:
+**One-command install via [skills.sh](https://skills.sh):**
+
+```bash
+npx skills add CharlexH/codex-code-review
+```
+
+**Or install manually:**
 
 ```bash
 mkdir -p ~/.claude/skills/codex-code-review
-cp SKILL.md ~/.claude/skills/codex-code-review/SKILL.md
+curl -fsSL https://raw.githubusercontent.com/CharlexH/codex-code-review/main/SKILL.md \
+  -o ~/.claude/skills/codex-code-review/SKILL.md
 ```
 
 ## Usage
