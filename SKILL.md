@@ -136,5 +136,7 @@ Treat Codex as a knowledgeable colleague, not an authority:
 ## Error Handling
 
 - **Codex not found**: tell user to install with `npm i -g @openai/codex`
-- **Non-zero exit**: stop, show error, ask user how to proceed
 - **No git repo**: inform user this workflow requires a git repository
+- **No remote configured**: tell user to add a remote with `git remote add origin <url>`, or create a repo with `gh repo create`
+- **Git auth failure**: suggest checking credentials — `gh auth status` for GitHub CLI, or SSH key / HTTPS token for plain git
+- **Non-zero exit from codex**: stop, show the error output, ask user how to proceed
