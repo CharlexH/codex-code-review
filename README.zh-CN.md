@@ -64,13 +64,18 @@ curl -fsSL https://raw.githubusercontent.com/CharlexH/codex-code-review/main/SKI
 | 中文 | English |
 |------|---------|
 | `codex 审查` | `codex review` |
-| `codex 检查` | `codex code review` |
 | `用 codex 审` | `codex check` |
 | `让 codex 看看` | `let codex check` |
-| `写完让 codex 检查` | `write and audit code` |
-| `帮我写完代码然后审一下` | `code review with codex` |
-| | `dual AI review` |
-| | `write then push with review` |
+| `push 前让 codex 审一下` | `review before push` |
+| `提交前让 codex 过一遍` | `run codex before push` |
+
+<details>
+<summary>全部触发词（20+）</summary>
+
+**中文:** codex 审查, codex 检查, 用 codex 审, 让 codex 看看, 写完让 codex 检查, push 前让 codex 审一下, 提交前让 codex 过一遍, 修完再让 codex 看一遍, 让 codex 复审一下, 帮我走一遍 codex 审查流程
+
+**English:** codex review, codex code review, codex check, let codex check, code review with codex, review before push, pre-push review, review and fix with codex, run codex before push, codex audit loop
+</details>
 
 ## 默认配置
 

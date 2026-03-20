@@ -1,6 +1,14 @@
 ---
 name: codex-code-review
-description: Orchestrate an Opus-writes → Codex-audits → Opus-fixes → Codex-re-audits → push loop. Use when the user asks to "write and audit code", "codex review", "codex code review", "codex check", "code review with codex", "dual AI review", "codex audit loop", "let codex check", "let codex review", "write then push with review", "写完让 codex 检查", "用 codex 审", "codex 审查", "codex 检查", "让 codex 看看", "帮我写完代码然后审一下", or wants Codex-verified code before pushing. Requires local `codex` CLI (codex-cli).
+description: >-
+  Orchestrate an Opus-writes → Codex-audits → Opus-fixes → Codex-re-audits → push loop.
+  Use when the user asks to "codex review", "codex code review", "codex check",
+  "let codex check", "code review with codex", "review before push", "pre-push review",
+  "review and fix with codex", "run codex before push", "codex audit loop",
+  "codex 审查", "codex 检查", "用 codex 审", "让 codex 看看", "写完让 codex 检查",
+  "push 前让 codex 审一下", "提交前让 codex 过一遍", "修完再让 codex 看一遍",
+  "让 codex 复审一下", "帮我走一遍 codex 审查流程",
+  or wants Codex-verified code before pushing. Requires local `codex` CLI (codex-cli).
 ---
 
 # Codex Audit Loop
